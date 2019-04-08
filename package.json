@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --hot"
+    "start": "webpack-dev-server --hot",
+    "build":"webpack",
+    "test":"webpack"
   },
-  "author": "Gowtham",
+  "author": "Yogee",
   "license": "ISC",
   "dependencies": {
     "css-loader": "^0.26.1",
